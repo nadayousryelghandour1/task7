@@ -67,7 +67,7 @@ class _LoginState extends State<Login> {
                     ),
 
 
-                    mySizesBox(height: 76),
+                    mySizesBox(height: 64),
 
                     //user name and password
 
@@ -99,7 +99,7 @@ class _LoginState extends State<Login> {
                                 border: const OutlineInputBorder(),
                                 labelText: "email",
                                 hintText: "youremailname@example.com",
-                                constraints: BoxConstraints.tight(const Size(400,40)),
+                                constraints: BoxConstraints.tight(const Size(400,50)),
                                 ),
                           ),
 
@@ -119,7 +119,7 @@ class _LoginState extends State<Login> {
                       obscureText: obscureText,
                       decoration: InputDecoration(
                         
-                        constraints: BoxConstraints.tight(const Size(400, 40)),
+                        constraints: BoxConstraints.tight(const Size(400, 50)),
                         border: const OutlineInputBorder(),
                         labelText: "password",
                       
